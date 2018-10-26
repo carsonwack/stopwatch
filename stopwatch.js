@@ -29,6 +29,8 @@ var stopwatch = {
     stopwatch.time = 0;
     stopwatch.lap = 1;
 
+    $("#laps").text("");
+
     $("#display").text("00:00");
   },
 
